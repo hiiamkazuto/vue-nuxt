@@ -1,6 +1,6 @@
 services:
   frontend:
-    build: docker/nuxt
+    build: frontend
     volumes:
       - type: bind
         source: ./frontend
