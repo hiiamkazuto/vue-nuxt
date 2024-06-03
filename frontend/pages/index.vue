@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="js">
 const loginWithGoogle = async () => {
     const response = await $fetch('http://localhost:8080/api/login/google')
     console.log(response.url)
@@ -7,5 +7,6 @@ const loginWithGoogle = async () => {
 </script>
 
 <template>
+    いんでっくす
     <button @click="loginWithGoogle">Googleログイン</button>
 </template>
